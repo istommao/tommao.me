@@ -59,6 +59,6 @@ links_layout: block
 links:
 - NSDont:nsdont.me
 - Peach:www.peachis.me
-client_date: 1480396495573
+client_date: 1480399092554
 ---
-Life is short, Please ride hard and far. Make it happen
+Life is short, Please ride hard and far. Make it happen!
