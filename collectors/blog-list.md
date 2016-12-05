@@ -51,3 +51,5 @@ title: 收藏的博客列表
 - [十年踪迹的博客](http://www.h5jun.com/)
 
 - [博客园_Vamei](http://www.cnblogs.com/vamei/rss)
+
+- [the5fire的技术博客](https://www.the5fire.com/)

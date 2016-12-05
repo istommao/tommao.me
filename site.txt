@@ -6,7 +6,7 @@ cover: /_image/cover.jpg
 posts_per_page: 12
 post_content_type: markdown
 post_paragraph_indent: no
-file_path: /
+file_path: albums
 show_toc: yes
 mathjax: no
 disqus: 
@@ -40,6 +40,7 @@ sidebar_display: always
 rss: yes
 toc: auto
 creative_commons: none
+photo: /Albums
 fancybox: yes
 motion: yes
 weibo: 
@@ -59,6 +60,6 @@ links_layout: block
 links:
 - NSDont:nsdont.me
 - Peach:www.peachis.me
-client_date: 1480399092554
+client_date: 1480916954556
 ---
 Life is short, Please ride hard and far. Make it happen!
