@@ -14,4 +14,6 @@ title: about
 
 ## 知乎专栏
 [编程猫](https://zhuanlan.zhihu.com/codingcat)
+![](~/WechatIMG2.jpeg)
+
 [Python笔记](https://zhuanlan.zhihu.com/pynotes)
