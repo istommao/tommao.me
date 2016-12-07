@@ -1,6 +1,7 @@
 ---
 date: 2016-12-05 16:34
 status: public
+tags: 运维
 title: Centos下Python生产环境配置
 ---
 

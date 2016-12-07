@@ -1,6 +1,7 @@
 ---
 date: 2016-12-01 17:56
 status: public
+tags: 收藏博客
 title: 收藏的博客列表
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: 2016-11-29 13:09
 status: public
+tags: Python
 title: 发布你的Python包
 ---
 

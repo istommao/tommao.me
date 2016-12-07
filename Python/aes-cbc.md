@@ -1,6 +1,7 @@
 ---
 date: 2016-11-29 13:16
 status: public
+tags: Python,AES
 title: 使用cryptography进行AES的cbc模式加密
 ---
 

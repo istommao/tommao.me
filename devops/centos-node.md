@@ -1,6 +1,7 @@
 ---
 date: 2016-12-06 09:53
 status: public
+tags: 运维
 title: Centos下node安装
 ---
 
@@ -13,7 +14,7 @@ curl -sL https://rpm.nodesource.com/setup | bash -
 yum install -y nodejs
 ```
 
-## 设置淘宝源
+## 设置npm源
 
 1.通过config命令
 ```shell

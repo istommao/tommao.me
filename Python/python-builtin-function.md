@@ -1,6 +1,7 @@
 ---
 date: 2016-11-29 13:13
 status: public
+tags: Python
 title: Python内建函数
 ---
 
