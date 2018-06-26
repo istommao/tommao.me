@@ -6,13 +6,13 @@
     <meta name="author"  content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords"  content="{{ site.keyword }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/demo.css">
+    <link rel="stylesheet" href="{{ "/assets/demo.css" | prepend: site.baseurl }}">
 </head>
 
 <body style="background:white;">
     {{ content }}
     <!-- Plyr core script -->
-    <script src="{{ site.baseurl }}/assets/plyr/dist/plyr.js"></script>
+    <script src="{{ "/assets/plyr/dist/plyr.js" | prepend: site.baseurl }}"></script>
     <script>
 
     new Plyr('#player', {
@@ -74,14 +74,7 @@
         },
         captions: {
             active: true
-        },
-        keys: {
-            google: 'AIzaSyDrNwtN3nLH_8rjCmu5Wq3ZCm4MNAVdc0c'
-        },
-        // ads: {
-        //     enabled: false,
-        //     publisherId: '918848828995742'
-        // }
+        }
     });
 
     </script>
