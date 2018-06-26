@@ -1,99 +1,13 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video</title>
-    <meta name="author"  content="{{ site.author }}">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords"  content="{{ site.keyword }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/demo.css">
-</head>
+---
+title: Video
+layout: video
+---
+<div class="grid" style="width: 800px;">
 
-<body style="background:white;">
-    <div class="grid" style="width: 800px;">
-
-        <main>
-            <video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
-                <source src="{{ site.baseurl }}/assets/resources/youtube_music.mp4" type="video/mp4" size="576">
-                <a href="{{ site.baseurl }}/assets/resources/youtube_music.mp4" download>Download</a>
-            </video>
-        </main>
-    </div>
-
-    <!-- Plyr core script -->
-    <script src="{{ site.baseurl }}/assets/plyr/dist/plyr.js"></script>
-    <script>
-
-    new Plyr('#player', {
-        keyboard: {
-            global: true
-        },
-        tooltips: {
-            controls: true
-        },
-         controls: [
-            'play-large',
-            'restart',
-            'rewind',
-            'play',
-            'fast-forward',
-            'progress',
-            'current-time',
-            'duration',
-            'mute',
-            'volume',
-            'captions',
-            'settings',
-            'pip',
-            'airplay',
-            'fullscreen',
-        ],
-         i18n: {
-            restart: '重新开始',
-            rewind: '快退{seektime}秒',
-            play: '播放',
-            pause: '暂停',
-            fastForward: '快进{seektime}秒',
-            seek: '尋求',
-            played: '發揮',
-            buffered: '緩衝的',
-            currentTime: '當前時間戳',
-            duration: '长短',
-            volume: '音量',
-            mute: '静音',
-            unmute: '取消静音',
-            enableCaptions: '打开字幕',
-            disableCaptions: '关闭字幕',
-            enterFullscreen: '打开全屏',
-            exitFullscreen: '退出全屏',
-            frameTitle: '球員为{title}',
-            captions: '字幕',
-            settings: '设置',
-            speed: '速度',
-            normal: '正常',
-            quality: '质量',
-            loop: '循环',
-            start: 'Start',
-            end: 'End',
-            all: 'All',
-            reset: '重放',
-            disabled: '禁用',
-            enabled: '启用',
-            advertisement: '广告',
-        },
-        captions: {
-            active: true
-        },
-        keys: {
-            google: 'AIzaSyDrNwtN3nLH_8rjCmu5Wq3ZCm4MNAVdc0c'
-        },
-        // ads: {
-        //     enabled: false,
-        //     publisherId: '918848828995742'
-        // }
-    });
-
-    </script>
-
-</body>
-
-</html>
+    <main>
+        <video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
+            <source src="{{ site.baseurl }}/assets/resources/youtube_music.mp4" type="video/mp4" size="576">
+            <a href="{{ site.baseurl }}/assets/resources/youtube_music.mp4" download>Download</a>
+        </video>
+    </main>
+</div>
