@@ -11,6 +11,7 @@ baseurl: '/tommao.me'
 nav:
   home: '/tommao.me'
   tags: '/tommao.me/tags.html'
+  video: '/tommao.me/video.html'
 
 # Footer
 footer:
