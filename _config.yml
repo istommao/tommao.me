@@ -19,8 +19,8 @@ footer:
 # Author 配置博主信息
 author: 'silence'
 nickname: '无声'
-bio: 'Python'
-avatar: '/tommao.me/assets/img/profile.png'
+bio: 'Python,Web'
+avatar: 'assets/img/profile.png'
 
 # Search
 search: true
